@@ -13,10 +13,10 @@ B9116851-4A76-46E8-A3A8-xxxxxxxxxxxx:proximity-near
 [1.uuid]:[2.type]-[3.value]
 ```
 
-### type의 종류
-    - proximity
-    - region
-    
-### value의 종류
-    - proximity : immediate, near, far, noBeacons
-    - region : enter, exit
+### type별 value
+proximity | region
+------------ | -------------
+immediate | enter
+near | exit
+far | -
+noBeacons | -
